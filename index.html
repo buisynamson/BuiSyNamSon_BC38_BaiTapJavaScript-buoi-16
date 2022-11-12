@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+    <title>Document</title>
+    <style>
+    .info {
+        background-color: rgb(152, 253, 206);
+        text-align: left;
+        color: black;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px 50px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        width: 400px;
+      }
+
+p:nth-child(odd) {
+  background: red;
+}
+
+p:nth-child(even) {
+  background: lightgreen;
+}
+
+    </style>
+</head>
+<body>
+    
+    <h5 class="mx-5 mt-3">Bài 1 </h5>
+      <div id="result" class="info"></div>
+    </div>
+
+    <div class="tinhSoMu">
+      <h5 class="mx-5 mt-3">Bài 2 </h5>
+      <input class="mx-5 mt-3" style="width: 400px" id="numX" type="text" placeholder="Nhập số x:" /> <br>
+      <input class="mx-5 mt-3" style="width: 400px"
+        id="numN"
+        type="text"
+        placeholder="Nhập số n:"
+      /> <br>
+      <button onclick="ex2()" type="button" class="btn btn-primary mx-5 mt-3">
+        Tính Tổng
+      </button>
+      <div id="resultEx2" class="info"></div>
+    </div>
+
+    <div class="tinhGiaiThua">
+      <h5 class="mx-5 mt-3">Bài 3 </h5>
+      <input class="mx-5 mt-3" style="width: 400px"
+        id="numM"
+        type="text"
+        placeholder="Nhập số m:"
+      /> <br>
+      <button onclick="ex3()" type="button" class="btn btn-primary mx-5 mt-3">
+        Tính giai thừa
+      </button>
+      <div id="resultEx3" class="info"></div>
+    </div>
+
+    <div class="inChanLe">
+      <h5 class="mx-5 mt-3">Bài 4 </h5>
+      <input class="mx-5 mt-3" style="width: 400px"
+        id="numM"
+        type="text"
+        placeholder=""
+      /> <br>
+      <button onclick="ex4()" type="button" class="btn btn-primary mx-5 mt-3">
+        In thẻ Div
+      </button>
+
+      <div class="soNguyenTo">
+        <h5 class="mx-5 mt-3">Bài 5 </h5>
+        <input class="mx-5 mt-3" style="width: 400px"
+          id="numA"
+          type="text"
+          placeholder="Nhập a: "
+        /> <br>
+        <button onclick="ex5()" type="button" class="btn btn-primary mx-5 mt-3">
+          Kiểm tra
+        </button>
+        <div id="resultEx5" class="info"></div>
+      </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
